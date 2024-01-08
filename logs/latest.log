@@ -1,0 +1,143 @@
+[18:38:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:38:36] [ServerMain/INFO]: Loaded 7 recipes
+[18:38:36] [ServerMain/INFO]: Loaded 1271 advancements
+[18:38:38] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[18:38:38] [Server thread/INFO]: Loading properties
+[18:38:38] [Server thread/INFO]: Default game type: SURVIVAL
+[18:38:38] [Server thread/INFO]: Generating keypair
+[18:38:38] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descripteur non valide
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at ama$1.run(SourceFile:89) ~[server-1.20.4.jar:?]
+[18:38:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:38:38] [Server thread/INFO]: Using default channel type
+[18:38:39] [Server thread/INFO]: Preparing level "world"
+[18:38:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:38:47] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:38:47] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:38:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:38:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:38:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:38:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:38:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:38:49] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:38:50] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:38:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:38:50] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:38:51] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:38:51] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[18:38:52] [Worker-Main-4/INFO]: Preparing spawn area: 24%
+[18:38:52] [Worker-Main-4/INFO]: Preparing spawn area: 31%
+[18:38:53] [Worker-Main-2/INFO]: Preparing spawn area: 63%
+[18:38:53] [Worker-Main-1/INFO]: Preparing spawn area: 89%
+[18:38:53] [Server thread/INFO]: Time elapsed: 12659 ms
+[18:38:53] [Server thread/INFO]: Done (14.816s)! For help, type "help"
+[18:40:27] [User Authenticator #1/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[18:40:28] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:50923] logged in with entity id 33 at (-1699.8138217744306, 128.0, -2011.1996000086554)
+[18:40:28] [Server thread/INFO]: Teskware joined the game
+[18:40:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6360ms or 127 ticks behind
+[18:40:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4565ms or 91 ticks behind
+[18:41:17] [User Authenticator #2/INFO]: UUID of player Pepito5962 is cc890780-8161-4457-a9f5-ac5d937b480c
+[18:41:17] [Server thread/INFO]: Pepito5962[/[0:0:0:0:0:0:0:1]:50933] logged in with entity id 665 at (-1698.5937838102707, 128.0, -2010.946783880118)
+[18:41:17] [Server thread/INFO]: Pepito5962 joined the game
+[18:41:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[19:27:30] [Server thread/INFO]: Pepito5962 lost connection: Disconnected
+[19:27:30] [Server thread/INFO]: Pepito5962 left the game
+[19:33:32] [Server thread/INFO]: Teskware lost connection: Disconnected
+[19:33:32] [Server thread/INFO]: Teskware left the game
+[19:46:53] [User Authenticator #3/INFO]: UUID of player Pepito5962 is cc890780-8161-4457-a9f5-ac5d937b480c
+[19:46:53] [Server thread/INFO]: Pepito5962[/[0:0:0:0:0:0:0:1]:51437] logged in with entity id 13979 at (-1584.9125516252755, 164.0, -1996.8278320425277)
+[19:46:53] [Server thread/INFO]: Pepito5962 joined the game
+[19:53:12] [Server thread/INFO]: Pepito5962 was doomed to fall by Zombie
+[19:53:18] [Server thread/WARN]: Pepito5962 moved too quickly! -120.02271211988091,-23.0,-18.218257930547907
+[19:55:53] [Server thread/INFO]: Pepito5962 was doomed to fall by Zombie
+[20:11:55] [Server thread/INFO]: Pepito5962 was slain by Zombie
+[20:20:54] [User Authenticator #4/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[20:20:54] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:51653] logged in with entity id 23764 at (-1987.5103533412903, 67.0, -1924.55315331026)
+[20:20:54] [Server thread/INFO]: Teskware joined the game
+[20:26:21] [Server thread/INFO]: Pepito5962 was shot by Skeleton
+[20:28:17] [Server thread/INFO]: Pepito5962 was slain by Zombie
+[20:28:22] [Server thread/WARN]: Pepito5962 moved too quickly! -112.11840290113037,-24.0,-12.475016661255495
+[20:35:28] [Server thread/INFO]: Pepito5962 has made the advancement [Suit Up]
+[20:37:49] [Server thread/WARN]: Teskware moved too quickly! -9.407308197544808,-2.176759275064242,-3.4237256943126795
+[20:38:00] [Server thread/WARN]: Teskware moved too quickly! -8.776636159690497,-3.8751356021945895,-2.96974556944042
+[20:43:23] [Server thread/INFO]: Pepito5962 drowned
+[20:44:36] [Server thread/INFO]: Teskware lost connection: Disconnected
+[20:44:36] [Server thread/INFO]: Teskware left the game
+[20:44:43] [User Authenticator #5/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[20:44:44] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:51871] logged in with entity id 32659 at (-2916.463805115777, 62.11076428890229, -2001.5589910037497)
+[20:44:44] [Server thread/INFO]: Teskware joined the game
+[20:48:05] [Server thread/INFO]: Pepito5962 drowned
+[20:56:37] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved wrongly! 0.7871949922223394
+[20:56:37] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved wrongly! 0.7871949922223394
+[21:00:16] [Server thread/INFO]: Pepito5962 has made the advancement [Not Today, Thank You]
+[21:20:40] [Server thread/INFO]: Pepito5962 has made the advancement [Best Friends Forever]
+[21:22:39] [Server thread/INFO]: Teskware has made the advancement [Take Aim]
+[21:43:39] [Server thread/INFO]: Pepito5962 was slain by Drowned
+[21:44:26] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved wrongly! 0.6292039193212986
+[21:44:26] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved wrongly! 0.6591349068550585
+[21:45:35] [Server thread/INFO]: Pepito5962 was slain by Drowned
+[21:52:35] [Server thread/INFO]: Pepito5962 was slain by Wolf
+[22:02:36] [User Authenticator #6/INFO]: UUID of player zecna21 is 3d2dabbf-bb18-4474-9e3f-447c195ca708
+[22:02:36] [Server thread/INFO]: zecna21[/[0:0:0:0:0:0:0:1]:52410] logged in with entity id 68428 at (-1701.5753872406624, 132.0, -2012.7625967653507)
+[22:02:36] [Server thread/INFO]: zecna21 joined the game
+[22:02:38] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved too quickly! -8.698805054831155,0.0,5.680840963910441
+[22:02:38] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved too quickly! -9.045402708966321,0.0,5.878120830954231
+[22:02:38] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved too quickly! -9.393618967642851,0.0,6.072521419749648
+[22:02:38] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved too quickly! -9.742999170001099,0.0,6.264947285004212
+[22:02:38] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved too quickly! -10.09315478546364,0.0,6.456145835786231
+[22:02:38] [Server thread/WARN]: Dark Oak Boat (vehicle of Teskware) moved too quickly! -10.443756159955228,0.0,6.646731124659027
+[22:07:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
+[22:08:35] [Server thread/INFO]: zecna21 has made the advancement [Sweet Dreams]
+[22:08:55] [Server thread/INFO]: zecna21 has made the advancement [Acquire Hardware]
+[22:09:08] [Server thread/INFO]: zecna21 has made the advancement [Suit Up]
+[22:09:18] [Server thread/INFO]: zecna21 has made the advancement [Isn't It Iron Pick]
+[22:11:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-2108, y=90, z=-800} hx{x=-2109, y=91, z=-799}
+[22:11:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-2108, y=90, z=-800} hx{x=-2109, y=91, z=-799}
+[22:11:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-2108, y=90, z=-800} hx{x=-2109, y=91, z=-799}
+[22:11:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-2108, y=90, z=-800} hx{x=-2109, y=91, z=-799}
+[22:11:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-2108, y=90, z=-800} hx{x=-2109, y=91, z=-799}
+[22:11:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-2106, y=89, z=-799} hx{x=-2109, y=91, z=-799}
+[22:11:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-2108, y=90, z=-801} hx{x=-2109, y=91, z=-799}
+[22:18:16] [Server thread/INFO]: zecna21 has made the advancement [Light as a Rabbit]
+[22:24:42] [Server thread/INFO]: zecna21 has made the advancement [Diamonds!]
+[22:25:08] [Server thread/INFO]: Pepito5962 lost connection: Disconnected
+[22:25:08] [Server thread/INFO]: Pepito5962 left the game
+[22:25:30] [Server thread/WARN]: Spruce Boat (vehicle of zecna21) moved wrongly! 0.5548953045500995
+[22:25:30] [Server thread/WARN]: Spruce Boat (vehicle of zecna21) moved wrongly! 0.6449474584506356
+[22:25:32] [Server thread/INFO]: Teskware lost connection: Disconnected
+[22:25:32] [Server thread/INFO]: Teskware left the game
+[22:26:18] [Server thread/INFO]: Stopping server
+[22:26:18] [Server thread/INFO]: Saving players
+[22:26:19] [Server thread/INFO]: zecna21 lost connection: Server closed
+[22:26:19] [Server thread/INFO]: zecna21 left the game
+[22:26:19] [Server thread/INFO]: Saving worlds
+[22:26:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:26:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:26:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:26:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:26:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:26:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:26:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
