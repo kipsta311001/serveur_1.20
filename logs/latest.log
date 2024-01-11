@@ -1,11 +1,11 @@
-[18:08:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:08:22] [ServerMain/INFO]: Loaded 7 recipes
-[18:08:23] [ServerMain/INFO]: Loaded 1271 advancements
-[18:08:26] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[18:08:26] [Server thread/INFO]: Loading properties
-[18:08:26] [Server thread/INFO]: Default game type: SURVIVAL
-[18:08:26] [Server thread/INFO]: Generating keypair
-[18:08:26] [Server console handler/ERROR]: Exception handling console input
+[20:21:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:21:34] [ServerMain/INFO]: Loaded 7 recipes
+[20:21:34] [ServerMain/INFO]: Loaded 1271 advancements
+[20:21:36] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:21:36] [Server thread/INFO]: Loading properties
+[20:21:36] [Server thread/INFO]: Default game type: SURVIVAL
+[20:21:36] [Server thread/INFO]: Generating keypair
+[20:21:36] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Descripteur non valide
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -22,68 +22,67 @@ java.io.IOException: Descripteur non valide
 	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at ama$1.run(SourceFile:89) ~[server-1.20.4.jar:?]
-[18:08:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:08:27] [Server thread/INFO]: Using default channel type
-[18:08:27] [Server thread/INFO]: Preparing level "world"
-[18:08:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:08:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:08:37] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[18:08:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[18:08:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:08:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[18:08:39] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[18:08:40] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:08:40] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[18:08:41] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[18:08:41] [Worker-Main-1/INFO]: Preparing spawn area: 16%
-[18:08:42] [Worker-Main-7/INFO]: Preparing spawn area: 35%
-[18:08:42] [Worker-Main-3/INFO]: Preparing spawn area: 68%
-[18:08:43] [Server thread/INFO]: Time elapsed: 13410 ms
-[18:08:43] [Server thread/INFO]: Done (15.986s)! For help, type "help"
-[18:11:50] [User Authenticator #1/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
-[18:11:51] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:54368] logged in with entity id 34 at (-1698.4608411913914, 128.0, -2009.751454812322)
-[18:11:51] [Server thread/INFO]: Teskware joined the game
-[18:11:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6313ms or 126 ticks behind
-[18:12:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6483ms or 129 ticks behind
-[18:40:40] [Server thread/INFO]: Teskware lost connection: Disconnected
-[18:40:40] [Server thread/INFO]: Teskware left the game
-[19:52:38] [User Authenticator #2/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
-[19:52:38] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:55112] logged in with entity id 6610 at (-2179.3135812614614, -50.0, -1626.1197823628447)
-[19:52:38] [Server thread/INFO]: Teskware joined the game
-[21:21:56] [User Authenticator #3/INFO]: UUID of player zecna21 is 3d2dabbf-bb18-4474-9e3f-447c195ca708
-[21:21:56] [Server thread/INFO]: zecna21[/[0:0:0:0:0:0:0:1]:55624] logged in with entity id 29272 at (-2432.584776811962, 63.0, -3017.4608826974127)
-[21:21:56] [Server thread/INFO]: zecna21 joined the game
-[21:22:24] [Server thread/INFO]: zecna21 has made the advancement [Ice Bucket Challenge]
-[21:32:26] [Server thread/INFO]: zecna21 has made the advancement [Stone Age]
-[21:32:57] [Server thread/INFO]: zecna21 has made the advancement [Monster Hunter]
-[21:37:50] [Server thread/INFO]: zecna21 has made the advancement [Not Today, Thank You]
-[21:53:05] [Server thread/INFO]: zecna21 lost connection: Disconnected
-[21:53:05] [Server thread/INFO]: zecna21 left the game
-[22:22:50] [Server thread/INFO]: Teskware has made the advancement [Cover Me with Diamonds]
-[22:42:44] [Server thread/INFO]: Teskware lost connection: Disconnected
-[22:42:44] [Server thread/INFO]: Teskware left the game
-[22:43:01] [Server thread/INFO]: Stopping server
-[22:43:01] [Server thread/INFO]: Saving players
-[22:43:01] [Server thread/INFO]: Saving worlds
-[22:43:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:43:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:43:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:43:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:43:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:43:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:43:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:21:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:21:36] [Server thread/INFO]: Using default channel type
+[20:21:36] [Server thread/INFO]: Preparing level "world"
+[20:21:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:21:54] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:21:54] [Worker-Main-4/INFO]: Preparing spawn area: 9%
+[20:21:55] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[20:21:55] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[20:21:55] [Server thread/INFO]: Time elapsed: 17243 ms
+[20:21:55] [Server thread/INFO]: Done (19.013s)! For help, type "help"
+[20:24:08] [User Authenticator #1/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[20:24:08] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:57333] logged in with entity id 34 at (-1691.4577633016884, 127.0, -2008.7779311894983)
+[20:24:09] [Server thread/INFO]: Teskware joined the game
+[20:24:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4646ms or 92 ticks behind
+[20:24:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4067ms or 81 ticks behind
+[20:35:24] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-1528, y=19, z=-1484} hx{x=-1530, y=20, z=-1485}
+[20:35:25] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-1530, y=20, z=-1486} hx{x=-1530, y=19, z=-1486}
+[20:35:25] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-1530, y=20, z=-1486} hx{x=-1530, y=19, z=-1486}
+[20:35:50] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-1530, y=20, z=-1487} hx{x=-1531, y=19, z=-1487}
+[20:38:07] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-1535, y=18, z=-1480} hx{x=-1536, y=17, z=-1480}
+[20:47:01] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-1528, y=45, z=-1510} hx{x=-1529, y=44, z=-1510}
+[22:05:57] [Server thread/INFO]: Teskware lost connection: Disconnected
+[22:05:57] [Server thread/INFO]: Teskware left the game
+[22:06:00] [Server thread/INFO]: Stopping server
+[22:06:00] [Server thread/INFO]: Saving players
+[22:06:00] [Server thread/INFO]: Saving worlds
+[22:06:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:06:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:06:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:06:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:06:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:06:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:06:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
