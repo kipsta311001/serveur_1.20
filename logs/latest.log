@@ -1,19 +1,19 @@
-[15:00:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:00:17] [ServerMain/INFO]: Loaded 7 recipes
-[15:00:18] [ServerMain/INFO]: Loaded 1271 advancements
-[15:00:19] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[15:00:19] [Server thread/INFO]: Loading properties
-[15:00:19] [Server thread/INFO]: Default game type: SURVIVAL
-[15:00:19] [Server thread/INFO]: Generating keypair
-[15:00:19] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Descripteur non valide
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+[21:08:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:08:32] [ServerMain/ERROR]: Failed to start the minecraft server
+java.io.IOException: Le processus ne peut pas accéder au fichier car un autre processus en a verrouillé une partie
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at atu.a(SourceFile:37) ~[server-1.20.4.jar:?]
+	at egm$c.<init>(SourceFile:394) ~[server-1.20.4.jar:?]
+	at egm.d(SourceFile:373) ~[server-1.20.4.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:133) ~[server-1.20.4.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Decoder.implRead(StreamDecoder.java:372) ~[?:?]
 	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
 	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
 	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
@@ -22,127 +22,96 @@ java.io.IOException: Descripteur non valide
 	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at ama$1.run(SourceFile:89) ~[server-1.20.4.jar:?]
-[15:00:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:00:20] [Server thread/INFO]: Using default channel type
-[15:00:20] [Server thread/INFO]: Preparing level "world"
-[15:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:00:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[15:00:29] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[15:00:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:00:29] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[15:00:29] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[15:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[15:00:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[15:00:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[15:00:31] [Worker-Main-5/INFO]: Preparing spawn area: 15%
-[15:00:32] [Worker-Main-4/INFO]: Preparing spawn area: 31%
-[15:00:32] [Worker-Main-1/INFO]: Preparing spawn area: 54%
-[15:00:33] [Worker-Main-7/INFO]: Preparing spawn area: 72%
-[15:00:34] [Worker-Main-2/INFO]: Preparing spawn area: 88%
-[15:00:34] [Server thread/INFO]: Time elapsed: 11750 ms
-[15:00:34] [Server thread/INFO]: Done (14.045s)! For help, type "help"
-[15:01:43] [User Authenticator #1/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
-[15:01:44] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:50696] logged in with entity id 34 at (-718.5044171295735, 83.0, -251.69999998807907)
-[15:01:44] [Server thread/INFO]: Teskware joined the game
-[15:02:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2762ms or 55 ticks behind
-[15:15:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2108ms or 42 ticks behind
-[15:34:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[15:35:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2140ms or 42 ticks behind
-[15:35:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3835ms or 76 ticks behind
-[15:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2425ms or 48 ticks behind
-[15:36:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5320ms or 106 ticks behind
-[15:36:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5980ms or 119 ticks behind
-[15:36:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2559ms or 51 ticks behind
-[15:37:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3120ms or 62 ticks behind
-[15:37:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2313ms or 46 ticks behind
-[15:37:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2138ms or 42 ticks behind
-[15:38:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2751ms or 55 ticks behind
-[15:38:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2841ms or 56 ticks behind
-[15:38:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2852ms or 57 ticks behind
-[15:38:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2603ms or 52 ticks behind
-[15:39:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[15:40:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
-[15:40:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[15:41:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[15:41:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4897ms or 97 ticks behind
-[15:42:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6004ms or 120 ticks behind
-[15:46:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[15:47:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3573ms or 71 ticks behind
-[15:51:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[15:52:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3283ms or 65 ticks behind
-[15:56:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[15:56:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4232ms or 84 ticks behind
-[15:56:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2100ms or 42 ticks behind
-[15:57:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4828ms or 96 ticks behind
-[15:57:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3469ms or 69 ticks behind
-[15:57:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2723ms or 54 ticks behind
-[15:58:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[15:58:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2823ms or 56 ticks behind
-[15:58:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3674ms or 73 ticks behind
-[15:59:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
-[15:59:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[16:00:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[16:00:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[16:02:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[16:02:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6447ms or 128 ticks behind
-[16:03:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7029ms or 140 ticks behind
-[16:03:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6631ms or 132 ticks behind
-[16:03:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7943ms or 158 ticks behind
-[16:04:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3032ms or 60 ticks behind
-[16:04:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[16:05:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[16:05:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[16:05:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2795ms or 55 ticks behind
-[16:06:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[16:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[16:06:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[16:07:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[16:07:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[16:07:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[16:08:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[16:08:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
-[16:08:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5328ms or 106 ticks behind
-[16:09:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4936ms or 98 ticks behind
-[16:12:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[16:12:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[16:13:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[16:13:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[16:14:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6051ms or 121 ticks behind
-[16:14:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6664ms or 133 ticks behind
-[16:14:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5347ms or 106 ticks behind
-[16:15:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2889ms or 57 ticks behind
-[16:15:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2304ms or 46 ticks behind
-[16:15:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3016ms or 60 ticks behind
-[16:16:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4267ms or 85 ticks behind
-[16:16:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4294ms or 85 ticks behind
-[16:16:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5915ms or 118 ticks behind
-[16:17:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8877ms or 177 ticks behind
-[16:17:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5842ms or 116 ticks behind
-[16:17:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5511ms or 110 ticks behind
-[16:18:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4282ms or 85 ticks behind
-[16:18:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3732ms or 74 ticks behind
-[16:18:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2829ms or 56 ticks behind
-[16:20:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[17:01:47] [Server thread/INFO]: Teskware lost connection: Disconnected
-[17:01:47] [Server thread/INFO]: Teskware left the game
-[17:02:02] [Server thread/INFO]: Stopping server
-[17:02:02] [Server thread/INFO]: Saving players
-[17:02:02] [Server thread/INFO]: Saving worlds
-[17:02:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:02:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:02:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:02:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:02:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:02:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:02:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:08:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:08:05] [Server thread/INFO]: Using default channel type
+[21:08:05] [Server thread/INFO]: Preparing level "world"
+[21:08:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:08:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:08:24] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:08:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:08:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:08:26] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[21:08:27] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:08:27] [Worker-Main-7/INFO]: Preparing spawn area: 15%
+[21:08:28] [Worker-Main-3/INFO]: Preparing spawn area: 44%
+[21:08:28] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[21:08:28] [Server thread/INFO]: Time elapsed: 17219 ms
+[21:08:28] [Server thread/INFO]: Done (23.402s)! For help, type "help"
+[21:09:27] [User Authenticator #1/INFO]: UUID of player Pepito5962 is cc890780-8161-4457-a9f5-ac5d937b480c
+[21:09:27] [Server thread/INFO]: Pepito5962[/[0:0:0:0:0:0:0:1]:53180] logged in with entity id 33 at (-1699.4599968014354, 128.0, -2011.9293285765582)
+[21:09:27] [Server thread/INFO]: Pepito5962 joined the game
+[21:09:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2671ms or 53 ticks behind
+[21:09:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2116ms or 42 ticks behind
+[21:10:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[21:11:00] [User Authenticator #2/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[21:11:01] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:53227] logged in with entity id 1038 at (-1701.43225437856, 97.0, -1846.4833310537297)
+[21:11:01] [Server thread/INFO]: Teskware joined the game
+[21:11:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2468ms or 49 ticks behind
+[21:11:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3084ms or 61 ticks behind
+[21:34:48] [Server thread/INFO]: Pepito5962 has made the advancement [Diamonds!]
+[21:59:53] [Server thread/INFO]: Teskware lost connection: Disconnected
+[21:59:53] [Server thread/INFO]: Teskware left the game
+[21:59:59] [User Authenticator #3/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[21:59:59] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:53603] logged in with entity id 13987 at (-1700.300000011921, 112.0, -1855.573871274937)
+[21:59:59] [Server thread/INFO]: Teskware joined the game
+[22:13:20] [Server thread/INFO]: Pepito5962 was blown up by Creeper
+[22:17:11] [Server thread/INFO]: Teskware lost connection: Disconnected
+[22:17:11] [Server thread/INFO]: Teskware left the game
+[22:17:16] [User Authenticator #4/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[22:17:16] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:53995] logged in with entity id 18212 at (-1708.0082580354983, 117.5, -1852.6538772976116)
+[22:17:16] [Server thread/INFO]: Teskware joined the game
+[22:17:20] [Server thread/INFO]: Teskware lost connection: Disconnected
+[22:17:20] [Server thread/INFO]: Teskware left the game
+[22:17:30] [User Authenticator #5/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[22:17:30] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:54002] logged in with entity id 18335 at (-1708.0082580354983, 117.5, -1852.6538772976116)
+[22:17:30] [Server thread/INFO]: Teskware joined the game
+[22:27:55] [Server thread/INFO]: Pepito5962 lost connection: Disconnected
+[22:27:55] [Server thread/INFO]: Pepito5962 left the game
+[22:40:09] [Server thread/INFO]: Teskware lost connection: Disconnected
+[22:40:09] [Server thread/INFO]: Teskware left the game
+[22:40:18] [User Authenticator #6/INFO]: UUID of player Pepito5962 is cc890780-8161-4457-a9f5-ac5d937b480c
+[22:40:18] [Server thread/INFO]: Pepito5962[/[0:0:0:0:0:0:0:1]:54141] logged in with entity id 24079 at (-1727.6559097556617, 119.0, -1934.941150570126)
+[22:40:18] [Server thread/INFO]: Pepito5962 joined the game
+[22:40:29] [User Authenticator #7/INFO]: UUID of player Teskware is 74a5b75a-b2fb-41bd-9412-f30dcfb6df6f
+[22:40:30] [Server thread/INFO]: Teskware[/[0:0:0:0:0:0:0:1]:54152] logged in with entity id 24783 at (-1702.3544766986795, 132.0, -2011.259565653646)
+[22:40:30] [Server thread/INFO]: Teskware joined the game
+[22:53:42] [Server thread/INFO]: Pepito5962 lost connection: Disconnected
+[22:53:42] [Server thread/INFO]: Pepito5962 left the game
+[22:57:39] [Server thread/INFO]: Teskware lost connection: Disconnected
+[22:57:39] [Server thread/INFO]: Teskware left the game
+[22:57:48] [Server thread/INFO]: Stopping server
+[22:57:48] [Server thread/INFO]: Saving players
+[22:57:48] [Server thread/INFO]: Saving worlds
+[22:57:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:57:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:57:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:57:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:57:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:57:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:57:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
